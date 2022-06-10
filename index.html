@@ -1,1 +1,47 @@
-ECHO is on.
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="#" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Tik Tak Toe</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Tik Tak Toe</h1>
+    </header>
+
+    <section class="game">
+        <div class="container"></div>
+
+        <div class="display">
+            <div class="display-board">
+                <div>
+                    <div class="piece">
+                        <p class="text">X : </p>
+                        <p id="X-value">0</p>
+                    </div>
+                    <div class="piece">
+                        <p class="text">O : </p>
+                        <p id="O-value">0</p>
+                    </div>
+                </div>
+                <p class="gameover">Not a winner yet</p>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="buttons">
+        <button class="reset">Reset</button>
+    </div>
+
+</body>
+
+</html>

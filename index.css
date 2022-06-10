@@ -1,1 +1,78 @@
-ECHO is on.
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid black;
+}
+
+section.game, div.buttons, .display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.board {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.container .square {
+    border: 2px solid black;
+    width: 10rem;
+    height: 10rem;
+    padding: 0.4rem;
+    text-align: center;
+    font-size: 10rem;
+}
+
+div.buttons {
+    margin-top: 2rem;
+}
+
+.display {
+
+    background-color: rgb(117, 47, 47);
+    width: 300px;
+    height: 300px;
+    margin-left: 1rem;
+}
+
+.display-board {
+    display: flex;
+    justify-content: center;
+    background-color: #ced9ac;
+    width: 280px;
+    height: 280px;
+}
+
+.piece {
+    display: flex;
+}
+
+.gameover{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+.reset {
+    padding: 0.2rem;
+}
